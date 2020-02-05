@@ -1,0 +1,16 @@
+<nav>
+  <ul>
+    <% for film in @film %>
+    <li><a href="/films/<%= film.id %>"><%= film.title %></a></li>
+    <% end %>
+  </ul>
+  <div class="">
+    <ul>
+      <li><a href="/">Home</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<!-- remove nav and list.
+create a details -->
